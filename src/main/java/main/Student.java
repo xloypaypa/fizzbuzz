@@ -8,7 +8,7 @@ public class Student extends Person {
         this.i = i;
     }
 
-    public String action() {
+    public String number() {
         String result = "";
         if (i % 3 == 0) {
             result += "Fizz";

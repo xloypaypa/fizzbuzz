@@ -9,9 +9,9 @@ public class Teacher extends Person {
         this.students = students;
     }
 
-    public void action() {
+    public void number() {
         for (Student student : students) {
-            System.out.println(student.action());
+            System.out.println(student.number());
         }
     }
 
