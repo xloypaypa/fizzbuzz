@@ -3,8 +3,8 @@ package main;
 public class Student extends Person {
     private int i;
 
-    public Student(String s, int i) {
-        super(s);
+    public Student(String name, int i) {
+        super(name);
         this.i = i;
     }
 
