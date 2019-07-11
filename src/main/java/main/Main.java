@@ -9,7 +9,7 @@ public class Main {
             students[i] = new Student(name, i + 1);
         }
         Teacher teacher = new Teacher(name, students);
-        teacher.action();
+        teacher.number();
     }
 
 }
