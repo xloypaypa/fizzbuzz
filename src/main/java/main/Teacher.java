@@ -9,7 +9,7 @@ public class Teacher extends Person {
         this.students = students;
     }
 
-    public void number() {
+    public void number() {//number 作动词有报数的意思
         for (Student student : students) {
             System.out.println(student.number());
         }
