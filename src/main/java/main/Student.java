@@ -19,8 +19,11 @@ public class Student extends Person {
         if (i % 7 == 0) {
             result = "Whizz";
         }
-        if (i % 15 == 0) {
+        if (i == 15) {
             result = "FizzBuzz";
+        }
+        if (i == 21) {
+            result = "FizzWhizz";
         }
         if (result.isEmpty()) {
             result += i;
