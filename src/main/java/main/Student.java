@@ -11,13 +11,16 @@ public class Student extends Person {
     public String number() {
         String result = "";
         if (i % 3 == 0) {
-            result += "Fizz";
+            result = "Fizz";
         }
         if (i % 5 == 0) {
-            result += "Buzz";
+            result = "Buzz";
         }
         if (i % 7 == 0) {
             result = "Whizz";
+        }
+        if (i % 15 == 0) {
+            result = "FizzBuzz";
         }
         if (result.isEmpty()) {
             result += i;
